@@ -1,0 +1,119 @@
+{
+  "users": [
+    {
+      "id": "U001",
+      "nomComplet": "Administrateur Sakina",
+      "email": "admin@sakina.com",
+      "telephone": "770000001",
+      "motDePasse": "admin123",
+      "role": "ADMIN",
+      "dateCreation": "2026-07-01"
+    },
+    {
+      "id": "U002",
+      "nomComplet": "Guide Abdou",
+      "email": "guide@sakina.com",
+      "telephone": "770000002",
+      "motDePasse": "guide123",
+      "role": "GUIDE",
+      "dateCreation": "2026-07-01"
+    },
+    {
+      "id": "U003",
+      "nomComplet": "Ahmad Bin Ibrahim",
+      "email": "ahmad@gmail.com",
+      "telephone": "770000003",
+      "motDePasse": "pelerin123",
+      "role": "PELERIN",
+      "dateCreation": "2026-07-01"
+    }
+  ],
+
+  "guides": [
+    {
+      "id": "G001",
+      "userId": "U002",
+      "specialite": "Oumrah",
+      "disponibilite": true
+    }
+  ],
+
+  "groupes": [
+    {
+      "id": "GR001",
+      "nom": "Groupe Dakar 1",
+      "guideId": "G001",
+      "nombrePelerins": 1
+    }
+  ],
+
+  "pelerins": [
+    {
+      "id": "P001",
+      "userId": "U003",
+      "numeroPasseport": "MY9876543",
+      "nationalite": "Sénégalaise",
+      "hotelMecque": "Fairmont Clock Tower",
+      "hotelMedine": "Anwar Al Madinah",
+      "numeroChambre": "1402-B",
+      "statutVisa": "APPROUVE",
+      "groupeId": "GR001",
+      "infosMedicales": "Aucune"
+    }
+  ],
+
+  "proches": [
+    {
+      "id": "PR001",
+      "pelerinId": "P001",
+      "nom": "Fatou Ndiaye",
+      "telephone": "770000010",
+      "email": "fatou@gmail.com",
+      "lienParente": "MERE"
+    }
+  ],
+
+  "annonces": [
+    {
+      "id": "A001",
+      "titre": "Départ pour Mina",
+      "contenu": "Le départ est prévu à 08h00.",
+      "urgence": true,
+      "datePublication": "2026-07-01T08:00:00",
+      "auteurId": "U001"
+    }
+  ],
+
+  "planning": [
+    {
+      "id": "PL001",
+      "titre": "Tawaf",
+      "description": "Circumambulation autour de la Kaaba",
+      "date": "2026-07-05",
+      "heure": "09:00",
+      "lieu": "Masjid Al Haram",
+      "categorie": "RITUEL"
+    }
+  ],
+
+  "localisations": [
+    {
+      "id": "L001",
+      "latitude": 21.422487,
+      "longitude": 39.826206,
+      "precision": 5,
+      "dateCapture": "2026-07-05T10:30:00"
+    }
+  ],
+
+  "sos": [
+    {
+      "id": "SOS001",
+      "pelerinId": "P001",
+      "localisationId": "L001",
+      "dateHeure": "2026-07-05T10:30:00",
+      "statut": "ACTIVE",
+      "commentaire": "Je suis perdu près de la porte 79."
+    }
+  ]
+}
