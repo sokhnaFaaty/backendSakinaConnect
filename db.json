@@ -3,7 +3,7 @@
     {
       "id": "U001",
       "nomComplet": "Administrateur Sakina",
-      "email": "admin@sakinaconnect.com",
+      "email": "admin@gmail.com",
       "telephone": "770000001",
       "motDePasse": "admin123",
       "role": "ADMIN",
@@ -12,7 +12,7 @@
     {
       "id": "U002",
       "nomComplet": "Abdou Ndiaye",
-      "email": "guide@sakinaconnect.com",
+      "email": "guide@gmail.com",
       "telephone": "770000002",
       "motDePasse": "guide123",
       "role": "GUIDE",
