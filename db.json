@@ -1,159 +1,176 @@
 {
-  "users": [
+  "utilisateurs": [
     {
       "id": "U001",
-      "nomComplet": "Administrateur Sakina",
-      "email": "admin@gmail.com",
-      "telephone": "770000001",
+      "nomComplet": "Sokhna Faty Gueye",
+      "email": "mamefat2004@gmail.com",
+      "telephone": 762389486,
       "motDePasse": "admin123",
       "role": "ADMIN",
+      "photo": "",
       "dateCreation": "2026-07-01"
     },
     {
       "id": "U002",
-      "nomComplet": "Abdou Ndiaye",
-      "email": "guide@gmail.com",
-      "telephone": "770000002",
+      "nomComplet": "Oustadh Lamine Mbaye",
+      "email": "laminembaye@gmail.com",
+      "telephone": 772086514,
       "motDePasse": "guide123",
       "role": "GUIDE",
+      "photo": "",
       "dateCreation": "2026-07-01"
     },
     {
       "id": "U003",
       "nomComplet": "Ahmad Bin Ibrahim",
       "email": "ahmad@gmail.com",
-      "telephone": "770000003",
+      "telephone": 774268022,
       "motDePasse": "pelerin123",
       "role": "PELERIN",
+      "photo": "",
       "dateCreation": "2026-07-01"
     },
     {
       "id": "U004",
-      "nomComplet": "Fatou Ndiaye",
-      "email": "fatou@gmail.com",
-      "telephone": "770000004",
+      "nomComplet": "Fatimah Ibrahim",
+      "email": "fatimah@gmail.com",
+      "telephone": 775003108,
       "motDePasse": "proche123",
       "role": "PROCHE",
+      "photo": "",
       "dateCreation": "2026-07-01"
+    }
+  ],
+
+  "admins": [
+    {
+      "idAdmin": "A001",
+      "utilisateurId": "U001"
     }
   ],
 
   "guides": [
     {
-      "id": "G001",
-      "userId": "U002",
-      "specialite": "Oumrah",
+      "idGuide": "G001",
+      "utilisateurId": "U002",
       "disponibilite": true
     }
   ],
 
   "hotels": [
     {
-      "id": "H001",
+      "idHotel": "H001",
       "nom": "Fairmont Clock Tower",
       "ville": "La Mecque",
       "adresse": "Abraj Al Bait",
-      "telephone": "+966125717777"
+      "telephone": "+96611111111",
+      "nombreEtoiles": 5
     },
     {
-      "id": "H002",
+      "idHotel": "H002",
       "nom": "Anwar Al Madinah",
       "ville": "Médine",
       "adresse": "Central Area",
-      "telephone": "+966148181000"
+      "telephone": "+96622222222",
+      "nombreEtoiles": 5
+    }
+  ],
+
+  "groupes": [
+    {
+      "idGroupe": "GR001",
+      "nom": "Groupe A-1",
+      "guideId": "G001",
+      "hotelMecqueId": "H001",
+      "hotelMedineId": "H002",
+      "dateDepart": "2026-07-05",
+      "dateRetour": "2026-07-18"
     }
   ],
 
   "pelerins": [
     {
-      "id": "P001",
-      "userId": "U003",
-      "numeroPasseport": "MY9876543",
-      "nationalite": "Sénégalaise",
-      "statutVisa": "ACCEPTE",
-      "informationsMedicales": "Aucune",
-      "hotelMecqueId": "H001",
-      "hotelMedineId": "H002",
-      "chambreMecque": "1402-B",
-      "chambreMedine": "305",
-      "guideId": "G001"
+      "idPelerin": "P001",
+      "utilisateurId": "U003",
+      "numeroPasseport": "SN456987",
+      "statutVisa": "APPROUVE",
+      "certificatVaccin": true,
+      "informationsMedicales": "Diabétique",
+      "contactUrgenceNom": "Fatimah Ibrahim",
+      "contactUrgenceTelephone": "770000005",
+      "groupeId": "GR001"
     }
   ],
 
   "proches": [
     {
-      "id": "PR001",
-      "userId": "U004",
+      "idProche": "PR001",
+      "utilisateurId": "U004",
       "pelerinId": "P001",
-      "lienParente": "Mère"
-    }
-  ],
-
-  "annonces": [
-    {
-      "id": "A001",
-      "titre": "Réunion d'information",
-      "contenu": "La réunion de préparation aura lieu demain à 10h00.",
-      "urgence": false,
-      "datePublication": "2026-07-02T10:00:00",
-      "auteurId": "U001"
-    },
-    {
-      "id": "A002",
-      "titre": "Départ vers la Mecque",
-      "contenu": "Le départ est prévu à 08h00 devant l'hôtel.",
-      "urgence": true,
-      "datePublication": "2026-07-05T07:00:00",
-      "auteurId": "U002"
+      "lienParente": "Fille"
     }
   ],
 
   "categories": [
     {
-      "id": "C001",
-      "nom": "Rituel"
+      "idCategorie": "CAT001",
+      "libelle": "Rituel"
     },
     {
-      "id": "C002",
-      "nom": "Déplacement"
+      "idCategorie": "CAT002",
+      "libelle": "Transport"
     },
     {
-      "id": "C003",
-      "nom": "Réunion"
+      "idCategorie": "CAT003",
+      "libelle": "Réunion"
     }
   ],
 
   "planning": [
     {
-      "id": "PL001",
+      "idPlanning": "PL001",
       "titre": "Tawaf",
-      "description": "Circumambulation autour de la Kaaba.",
-      "date": "2026-07-05",
-      "heure": "09:00",
+      "description": "Circumambulation autour de la Kaaba",
+      "date": "2026-07-06",
+      "heure": "20:00",
       "lieu": "Masjid Al Haram",
-      "categorieId": "C001"
+      "categorieId": "CAT001",
+      "groupeId": "GR001"
     },
     {
-      "id": "PL002",
-      "titre": "Départ vers Mina",
-      "description": "Déplacement en bus.",
-      "date": "2026-07-06",
-      "heure": "08:00",
-      "lieu": "Hôtel",
-      "categorieId": "C002"
+      "idPlanning": "PL002",
+      "titre": "Départ Mina",
+      "description": "Déplacement vers Mina",
+      "date": "2026-07-07",
+      "heure": "07:30",
+      "lieu": "Hôtel Fairmont",
+      "categorieId": "CAT002",
+      "groupeId": "GR001"
+    }
+  ],
+
+  "annonces": [
+    {
+      "idAnnonce": "AN001",
+      "titre": "Réunion",
+      "contenu": "Tous les pèlerins du groupe sont attendus dans le hall.",
+      "urgence": true,
+      "datePublication": "2026-07-05T20:00:00",
+      "guideId": "G001",
+      "groupeId": "GR001"
     }
   ],
 
   "sos": [
     {
-      "id": "SOS001",
+      "idSOS": "SOS001",
       "pelerinId": "P001",
-      "latitude": 21.422487,
-      "longitude": 39.826206,
-      "dateHeure": "2026-07-05T10:30:00",
-      "statut": "EN_ATTENTE",
-      "guideResponsable": "G001",
-      "commentaire": "Je suis perdu près de la porte 79."
+      "guideId": "G001",
+      "latitude": 21.4225,
+      "longitude": 39.8262,
+      "dateHeure": "2026-07-06T14:15:00",
+      "commentaire": "Je suis perdu près de la porte 79.",
+      "statut": "EN_ATTENTE"
     }
   ]
 }
