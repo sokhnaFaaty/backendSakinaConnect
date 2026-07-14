@@ -23,20 +23,50 @@
     {
       "id": "U003",
       "nomComplet": "Ahmad Bin Ibrahim",
-      "email": "ahmad@gmail.com",
+      "email": "000",
       "telephone": 774268022,
       "motDePasse": "pelerin123",
       "role": "PELERIN",
-      "photo": "",
+      "photo": "https://images.unsplash.com/photo-1655421186987-6c483d99c520?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "dateCreation": "2026-07-01"
+    },
+     {
+      "id": "U004",
+      "nomComplet": "Khadija Diaw",
+      "email": "khadijadiaw@gmail.com",
+      "telephone": 784342332,
+      "motDePasse": "pelerin123",
+      "role": "PELERIN",
+      "photo": "https://images.unsplash.com/photo-1713845784644-82265abf5872?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "dateCreation": "2026-07-01"
     },
     {
-      "id": "U004",
+      "id": "U005",
       "nomComplet": "Fatimah Ibrahim",
       "email": "fatimah@gmail.com",
       "telephone": 775003108,
       "motDePasse": "proche123",
       "role": "PROCHE",
+      "photo": "",
+      "dateCreation": "2026-07-01"
+    },
+     {
+      "id": "U006",
+      "nomComplet": "Cheikh Diaw",
+      "email": "cheikhdiaw@gmail.com",
+      "telephone": 765785943,
+      "motDePasse": "proche123",
+      "role": "PROCHE",
+      "photo": "https://images.unsplash.com/photo-1656887322222-6b493d220614?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fGhvbW1lJTIwbm9pciUyMG11c3VsbWFufGVufDB8fDB8fHww",
+      "dateCreation": "2026-07-01"
+    },
+    {
+      "id": "U007",
+      "nomComplet": "Oustadh Mamadou Gueye",
+      "email": "mamadougueye@gmail.com",
+      "telephone": 785405593,
+      "motDePasse": "guide123",
+      "role": "GUIDE",
       "photo": "",
       "dateCreation": "2026-07-01"
     }
@@ -53,6 +83,11 @@
     {
       "idGuide": "G001",
       "utilisateurId": "U002",
+      "disponibilite": true
+    },
+     {
+      "idGuide": "G002",
+      "utilisateurId": "U007",
       "disponibilite": true
     }
   ],
@@ -73,7 +108,24 @@
       "adresse": "Central Area",
       "telephone": "+96622222222",
       "nombreEtoiles": 5
+    },
+     {
+      "idHotel": "H003",
+      "nom": "Al Burhan Hotel",
+      "ville": "La Mecque",
+      "adresse": "Mahbass Al Jinn",
+      "telephone": "+966125615151",
+      "nombreEtoiles": 5
+    },
+    {
+      "idHotel": "H004",
+      "nom": "Leader Al Muna Kareem Hotel ",
+      "ville": "Médine",
+      "adresse": "Central Area",
+      "telephone": "+966 14 829 1010",
+      "nombreEtoiles": 5
     }
+   
   ],
 
   "groupes": [
@@ -83,6 +135,15 @@
       "guideId": "G001",
       "hotelMecqueId": "H001",
       "hotelMedineId": "H002",
+      "dateDepart": "2026-07-05",
+      "dateRetour": "2026-07-18"
+    },
+    {
+      "idGroupe": "GR002",
+      "nom": "Groupe B-1",
+      "guideId": "G002",
+      "hotelMecqueId": "H003",
+      "hotelMedineId": "H004",
       "dateDepart": "2026-07-05",
       "dateRetour": "2026-07-18"
     }
@@ -95,9 +156,20 @@
       "numeroPasseport": "SN456987",
       "statutVisa": "APPROUVE",
       "certificatVaccin": true,
-      "informationsMedicales": "Diabétique",
+      "informationsMedicales": "Hypertension",
       "contactUrgenceNom": "Fatimah Ibrahim",
       "contactUrgenceTelephone": "770000005",
+      "groupeId": "GR001"
+    },
+     {
+      "idPelerin": "P002",
+      "utilisateurId": "U004",
+      "numeroPasseport": "SN456988",
+      "statutVisa": "APPROUVE",
+      "certificatVaccin": true,
+      "informationsMedicales": "Diabétique",
+      "contactUrgenceNom": "Cheikh Diaw",
+      "contactUrgenceTelephone": "765785943",
       "groupeId": "GR001"
     }
   ],
@@ -105,9 +177,15 @@
   "proches": [
     {
       "idProche": "PR001",
-      "utilisateurId": "U004",
+      "utilisateurId": "U005",
       "pelerinId": "P001",
       "lienParente": "Fille"
+    },
+    {
+      "idProche": "PR002",
+      "utilisateurId": "U006",
+      "pelerinId": "P002",
+      "lienParente": "Frere"
     }
   ],
 
