@@ -23,7 +23,7 @@
     {
       "id": "U003",
       "nomComplet": "Ahmad Bin Ibrahim",
-      "email": "000",
+      "email": "ahmad@gmail.com",
       "telephone": 774268022,
       "motDePasse": "pelerin123",
       "role": "PELERIN",
@@ -213,7 +213,9 @@
       "heure": "20:00",
       "lieu": "Masjid Al Haram",
       "categorieId": "CAT001",
-      "groupeId": "GR001"
+      "groupeId": "GR001",
+      "latitude": 21.4225,
+    "longitude": 39.8262
     },
     {
       "idPlanning": "PL002",
@@ -223,7 +225,9 @@
       "heure": "07:30",
       "lieu": "Hôtel Fairmont",
       "categorieId": "CAT002",
-      "groupeId": "GR001"
+      "groupeId": "GR001",
+        "latitude": 21.4187,
+    "longitude": 39.8579
     }
   ],
 
