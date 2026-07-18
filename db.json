@@ -74,19 +74,19 @@
 
   "admins": [
     {
-      "idAdmin": "A001",
+      "id": "A001",
       "utilisateurId": "U001"
     }
   ],
 
   "guides": [
     {
-      "idGuide": "G001",
+      "id": "G001",
       "utilisateurId": "U002",
       "disponibilite": true
     },
      {
-      "idGuide": "G002",
+      "id": "G002",
       "utilisateurId": "U007",
       "disponibilite": true
     }
@@ -94,7 +94,7 @@
 
   "hotels": [
     {
-      "idHotel": "H001",
+      "id": "H001",
       "nom": "Fairmont Clock Tower",
       "ville": "La Mecque",
       "adresse": "Abraj Al Bait",
@@ -102,7 +102,7 @@
       "nombreEtoiles": 5
     },
     {
-      "idHotel": "H002",
+      "id": "H002",
       "nom": "Anwar Al Madinah",
       "ville": "Médine",
       "adresse": "Central Area",
@@ -110,7 +110,7 @@
       "nombreEtoiles": 5
     },
      {
-      "idHotel": "H003",
+      "id": "H003",
       "nom": "Al Burhan Hotel",
       "ville": "La Mecque",
       "adresse": "Mahbass Al Jinn",
@@ -118,7 +118,7 @@
       "nombreEtoiles": 5
     },
     {
-      "idHotel": "H004",
+      "id": "H004",
       "nom": "Leader Al Muna Kareem Hotel ",
       "ville": "Médine",
       "adresse": "Central Area",
@@ -130,7 +130,7 @@
 
   "groupes": [
     {
-      "idGroupe": "GR001",
+      "id": "GR001",
       "nom": "Groupe A-1",
       "guideId": "G001",
       "hotelMecqueId": "H001",
@@ -139,7 +139,7 @@
       "dateRetour": "2026-07-18"
     },
     {
-      "idGroupe": "GR002",
+      "id": "GR002",
       "nom": "Groupe B-1",
       "guideId": "G002",
       "hotelMecqueId": "H003",
@@ -151,7 +151,7 @@
 
   "pelerins": [
     {
-      "idPelerin": "P001",
+      "id": "P001",
       "utilisateurId": "U003",
       "numeroPasseport": "SN456987",
       "statutVisa": "APPROUVE",
@@ -162,7 +162,7 @@
       "groupeId": "GR001"
     },
      {
-      "idPelerin": "P002",
+      "id": "P002",
       "utilisateurId": "U004",
       "numeroPasseport": "SN456988",
       "statutVisa": "APPROUVE",
@@ -176,13 +176,13 @@
 
   "proches": [
     {
-      "idProche": "PR001",
+      "id": "PR001",
       "utilisateurId": "U005",
       "pelerinId": "P001",
       "lienParente": "Fille"
     },
     {
-      "idProche": "PR002",
+      "id": "PR002",
       "utilisateurId": "U006",
       "pelerinId": "P002",
       "lienParente": "Frere"
@@ -191,22 +191,22 @@
 
   "categories": [
     {
-      "idCategorie": "CAT001",
+      "id": "CAT001",
       "libelle": "Rituel"
     },
     {
-      "idCategorie": "CAT002",
+      "id": "CAT002",
       "libelle": "Transport"
     },
     {
-      "idCategorie": "CAT003",
+      "id": "CAT003",
       "libelle": "Réunion"
     }
   ],
 
   "planning": [
     {
-      "idPlanning": "PL001",
+      "id": "PL001",
       "titre": "Tawaf",
       "description": "Circumambulation autour de la Kaaba",
       "date": "2026-07-06",
@@ -215,10 +215,12 @@
       "categorieId": "CAT001",
       "groupeId": "GR001",
       "latitude": 21.4225,
-    "longitude": 39.8262
+    "longitude": 39.8262,
+      "etapeGuide": "Briefing avant le départ & Séminaire de préparation spirituelle"
+
     },
     {
-      "idPlanning": "PL002",
+      "id": "PL002",
       "titre": "Départ Mina",
       "description": "Déplacement vers Mina",
       "date": "2026-07-07",
@@ -245,7 +247,7 @@
 
   "sos": [
     {
-      "idSOS": "SOS001",
+      "id": "SOS001",
       "pelerinId": "P001",
       "guideId": "G001",
       "latitude": 21.4225,
