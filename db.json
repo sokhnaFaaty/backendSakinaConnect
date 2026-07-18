@@ -235,7 +235,7 @@
 
   "annonces": [
     {
-      "idAnnonce": "AN001",
+      "id": "AN001",
       "titre": "Réunion",
       "contenu": "Tous les pèlerins du groupe sont attendus dans le hall.",
       "urgence": true,
