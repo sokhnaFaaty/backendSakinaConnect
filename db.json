@@ -69,6 +69,15 @@
       "role": "GUIDE",
       "photo": "",
       "dateCreation": "2026-07-01"
+    }, {
+      "id": "U008",
+      "nomComplet": "Mamadou Diouf",
+      "email": "mamadou173diouf@gmail.com",
+      "telephone": 767666666,
+      "motDePasse": "admin123",
+      "role": "ADMIN",
+      "photo": "",
+      "dateCreation": "2026-22-01"
     }
   ],
 
@@ -76,6 +85,10 @@
     {
       "id": "A001",
       "utilisateurId": "U001"
+    },
+    {
+      "id": "A002",
+      "utilisateurId": "U008"
     }
   ],
 
