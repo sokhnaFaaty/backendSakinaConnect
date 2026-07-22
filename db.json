@@ -30,7 +30,7 @@
       "photo": "https://images.unsplash.com/photo-1655421186987-6c483d99c520?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "dateCreation": "2026-07-01"
     },
-     {
+    {
       "id": "U004",
       "nomComplet": "Khadija Diaw",
       "email": "khadijadiaw@gmail.com",
@@ -50,7 +50,7 @@
       "photo": "",
       "dateCreation": "2026-07-01"
     },
-     {
+    {
       "id": "U006",
       "nomComplet": "Cheikh Diaw",
       "email": "cheikhdiaw@gmail.com",
@@ -69,7 +69,8 @@
       "role": "GUIDE",
       "photo": "",
       "dateCreation": "2026-07-01"
-    }, {
+    },
+    {
       "id": "U008",
       "nomComplet": "Mamadou Diouf",
       "email": "mamadou173diouf@gmail.com",
@@ -98,7 +99,7 @@
       "utilisateurId": "U002",
       "disponibilite": true
     },
-     {
+    {
       "id": "G002",
       "utilisateurId": "U007",
       "disponibilite": true
@@ -122,7 +123,7 @@
       "telephone": "+96622222222",
       "nombreEtoiles": 5
     },
-     {
+    {
       "id": "H003",
       "nom": "Al Burhan Hotel",
       "ville": "La Mecque",
@@ -138,7 +139,6 @@
       "telephone": "+966 14 829 1010",
       "nombreEtoiles": 5
     }
-   
   ],
 
   "groupes": [
@@ -174,7 +174,7 @@
       "contactUrgenceTelephone": "770000005",
       "groupeId": "GR001"
     },
-     {
+    {
       "id": "P002",
       "utilisateurId": "U004",
       "numeroPasseport": "SN456988",
@@ -228,9 +228,8 @@
       "categorieId": "CAT001",
       "groupeId": "GR001",
       "latitude": 21.4225,
-    "longitude": 39.8262,
+      "longitude": 39.8262,
       "etapeGuide": "Briefing avant le départ & Séminaire de préparation spirituelle"
-
     },
     {
       "id": "PL002",
@@ -241,8 +240,47 @@
       "lieu": "Hôtel Fairmont",
       "categorieId": "CAT002",
       "groupeId": "GR001",
-        "latitude": 21.4187,
-    "longitude": 39.8579
+      "latitude": 21.4187,
+      "longitude": 39.8579
+    },
+    {
+      "id": "PL003",
+      "titre": "Ziyarah Badr",
+      "description": "Visite du champ de bataille historique de Badr et du cimetière des martyrs",
+      "date": "2026-07-10",
+      "heure": "06:00",
+      "lieu": "Champ de bataille de Badr",
+      "categorieId": "CAT001",
+      "groupeId": "GR001",
+      "latitude": 23.7744,
+      "longitude": 38.7904,
+      "etapeGuide": "Récit historique de la première grande bataille de l'Islam"
+    },
+    {
+      "id": "PL004",
+      "titre": "Visite de Uhud",
+      "description": "Ziyarah du mont Uhud, du cimetière des martyrs et des archers",
+      "date": "2026-07-12",
+      "heure": "08:00",
+      "lieu": "Mont Uhud, Médine",
+      "categorieId": "CAT001",
+      "groupeId": "GR001",
+      "latitude": 24.5036,
+      "longitude": 39.6108,
+      "etapeGuide": "Explication de la stratégie militaire et recueillement pour les martyrs"
+    },
+    {
+      "id": "PL005",
+      "titre": "Musée du Prophète",
+      "description": "Visite guidée de l'exposition internationale de la biographie du Prophète et de la civilisation islamique",
+      "date": "2026-07-13",
+      "heure": "10:00",
+      "lieu": "Musée de la Sira, face à la Mosquée du Prophète",
+      "categorieId": "CAT003",
+      "groupeId": "GR001",
+      "latitude": 24.4665,
+      "longitude": 39.6111,
+      "etapeGuide": "Visite technologique interactive sur l'histoire de la Sira"
     }
   ],
 
@@ -253,6 +291,33 @@
       "contenu": "Tous les pèlerins du groupe sont attendus dans le hall.",
       "urgence": true,
       "datePublication": "2026-07-05T20:00:00",
+      "guideId": "G001",
+      "groupeId": "GR001"
+    },
+    {
+      "id": "AN002",
+      "titre": "Alerte Chaleur ",
+      "contenu": "Il fait très chaud aujourd'hui, s'il vous plaît buvez beaucoup d'eau pour rester hydratés. Rappel : tout le monde se rassemble à 09h00 dans la réception de l'hôtel où loge votre groupe.",
+      "urgence": true,
+      "datePublication": "2026-07-22T08:00:00",
+      "guideId": "G001",
+      "groupeId": "GR001"
+    },
+    {
+      "id": "AN003",
+      "titre": "Information Transport : Bus pour Uhud",
+      "contenu": "Veuillez noter que le bus réservé pour l'excursion au Mont Uhud sera garé devant l'hôtel. Assurez-vous d'avoir vos badges de groupe avant de monter à bord.",
+      "urgence": false,
+      "datePublication": "2026-07-22T06:30:00",
+      "guideId": "G001",
+      "groupeId": "GR001"
+    },
+    {
+      "id": "AN004",
+      "titre": "Réunion de suivi du groupe",
+      "contenu": "Une brève réunion d'information générale aura lieu aujourd'hui pour faire un point sur le déroulement du séjour et répondre à vos questions.",
+      "urgence": false,
+      "datePublication": "2026-07-22T06:35:00",
       "guideId": "G001",
       "groupeId": "GR001"
     }
