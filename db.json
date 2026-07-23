@@ -297,7 +297,7 @@
     {
       "id": "AN002",
       "titre": "Alerte Chaleur ",
-      "contenu": "Il fait très chaud aujourd'hui, s'il vous plaît buvez beaucoup d'eau pour rester hydratés. Rappel : tout le monde se rassemble à 09h00 dans la réception de l'hôtel où loge votre groupe.",
+      "contenu": "Il fait très chaud aujourd'hui, s'il vous plaît buvez beaucoup d'eau pour rester hydratés.",
       "urgence": true,
       "datePublication": "2026-07-22T08:00:00",
       "guideId": "G001",
